@@ -13,6 +13,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Application\LogRabbitService\LogRabbitService.csproj" />
     <ProjectReference Include="..\..\Domain\AndreAirlinesDomain\AndreAirlinesDomain.csproj" />
+    <ProjectReference Include="..\AuthenticationAPI\AuthenticationAPI.csproj" />
     <ProjectReference Include="..\LogAPI\LogAPI.csproj" />
   </ItemGroup>
 

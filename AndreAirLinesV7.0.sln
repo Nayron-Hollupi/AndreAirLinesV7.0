@@ -39,6 +39,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassengerAPI", "Service\Pas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserAPI", "Service\UserAPI\UserAPI.csproj", "{9194ADB6-B8B6-4166-AE59-26C81F972BC5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndreAirLinesMVC", "AndreAirLinesMVC\AndreAirLinesMVC.csproj", "{47313222-E3C4-4F4D-866A-3B3B3DCAE4E2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{285ED9CC-7278-43B8-AA11-7F4604F246A4} = {285ED9CC-7278-43B8-AA11-7F4604F246A4}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -101,6 +106,10 @@ Global
 		{9194ADB6-B8B6-4166-AE59-26C81F972BC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9194ADB6-B8B6-4166-AE59-26C81F972BC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9194ADB6-B8B6-4166-AE59-26C81F972BC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47313222-E3C4-4F4D-866A-3B3B3DCAE4E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47313222-E3C4-4F4D-866A-3B3B3DCAE4E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47313222-E3C4-4F4D-866A-3B3B3DCAE4E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47313222-E3C4-4F4D-866A-3B3B3DCAE4E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -120,6 +129,7 @@ Global
 		{604966A5-B345-4676-BC47-29C00EA1F578} = {E4D7EE57-CB2C-4E8E-AD25-A39EF8735E34}
 		{FA5B8234-9276-4883-8F60-856192BF3896} = {E4D7EE57-CB2C-4E8E-AD25-A39EF8735E34}
 		{9194ADB6-B8B6-4166-AE59-26C81F972BC5} = {E4D7EE57-CB2C-4E8E-AD25-A39EF8735E34}
+		{47313222-E3C4-4F4D-866A-3B3B3DCAE4E2} = {4AD4698C-66DB-46AA-B6C5-B02B4AD49898}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0608EDAF-339C-4F04-BE49-A180A742BD4A}

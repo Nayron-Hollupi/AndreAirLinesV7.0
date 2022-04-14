@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using AndreAirlinesDomain.Model.Base;
 using Newtonsoft.Json;
 
 namespace AndreAirlinesDomain.Model
 {
-   public class AddressAirport
+   public class AddressAirport : Entity
     {
         #region Properties
      

@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 using AircraftAPI.Service;
 using AircraftAPI.Utils;
 using AuthenticationAPI;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -16,7 +15,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using Microsoft.IdentityModel.Tokens;
+
 using Microsoft.OpenApi.Models;
 
 namespace AeronaveAPI
